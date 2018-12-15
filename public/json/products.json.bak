@@ -1,0 +1,27 @@
+{
+    "status": 0 ,        
+    "msg": "SUCCESS",   
+    "data":[
+        {"pid":1,"pname":"计算","child":[
+            {"iid":1,"iname":"云服务器 BCC","detail":"高性能、高可靠、安全稳定的弹性计算服务","item":""},
+            {"iid":2,"iname":"专属服务器 DCC","detail":"提供性能可控、资源独享、物理资源隔离的专属云服务器","item":""},{"iid":3,"iname":"物理服务器 BBC","detail":"云环境中的高性能物理裸机服务","item":""},
+            {"iid":4,"iname":"GPU服务器","detail":"配备独享GPU的高性能云计算服务","item":""},
+            {"iid":5,"iname":"FPGA云服务器","details":"配备现场可编程门阵列（FPGA）的高性能云计算服务","item":""},
+            {"iid":6,"iname":"应用引擎 BAE","details":"提供弹性、便捷的应用部署服务","item":""},
+            {"iid":7,"iname":"容器引擎 CCE","details":"弹性高可用的容器集群管理平台","item":""},
+            {"iid":8,"iname":"函数计算 CFC","details":"基于事件机制，弹性、高可用、响应快的无服务器计算服务","item":""},
+            {"iid":9,"iname":"弹性伸缩","details":"按需自动缩放云端资源，提高业务可靠性、降低运维成本","item":""}
+            ]},  
+        {"pid":2,"pname":"网络","child":[{"iid":10}]},
+        {"pid":3,"pname":"存储与CDM"},
+        {"pid":4,"pname":"数据库"},
+        {"pid":5,"pname":"安全与管理"},
+        {"pid":6,"pname":"大数据分析"},
+        {"pid":7,"pname":"数字营销云"},
+        {"pid":8,"pname":"智能多媒体服务"},
+        {"pid":9,"pname":"物联网服务"},
+        {"pid":10,"pname":"人工智能"},
+        {"pid":11,"pname":"应用服务"},
+        {"pid":12,"pname":"网站服务"}
+    ]
+}              

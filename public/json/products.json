@@ -1,0 +1,139 @@
+{
+    "status": 0 ,
+    "msg": "SUCCESS",
+    "data":[
+        {"pid":1,"pname":"计算与网络","child":[
+            {"iid":1,"iname":"云服务器 BCC","detail":"高性能、高可靠、安全稳定的弹性计算服务","item":[],"icon":""},
+            {"iid":2,"iname":"专属服务器 DCC","detail":"提供性能可控、资源独享、物理资源隔离的专属云服务器","item":[],"icon":""},
+	          {"iid":3,"iname":"物理服务器 BBC","detail":"云环境中的高性能物理裸机服务","item":[],"icon":""},
+            {"iid":4,"iname":"GPU服务器","detail":"配备独享GPU的高性能云计算服务","item":[],"icon":""},
+            {"iid":5,"iname":"FPGA云服务器","details":"配备现场可编程门阵列（FPGA）的高性能云计算服务","item":[],"icon":""},
+            {"iid":6,"iname":"应用引擎 BAE","details":"提供弹性、便捷的应用部署服务","item":[],"icon":""},
+            {"iid":7,"iname":"容器引擎 CCE","details":"弹性高可用的容器集群管理平台","item":[],"icon":""},
+            {"iid":8,"iname":"函数计算 CFC","details":"基于事件机制，弹性、高可用、响应快的无服务器计算服务","item":[],"icon":""},
+            {"iid":9,"iname":"弹性伸缩","details":"按需自动缩放云端资源，提高业务可靠性、降低运维成本","item":[],"icon":""},
+	          {"iid":10,"iname":"弹性公网IP EIP","detail":"为用户访问公网提供IP及宽带服务","item":["EIP实例","共享带宽"],"icon":""},
+            {"iid":11,"iname":"负载均衡 BLB","detail":"均衡应用流量，消除故障节点，提高业务可用性","item":[],"icon":""},
+            {"iid":12,"iname":"私有网络","detail":"灵活自定义地址空间，消除故障节点，提高业务可用性","item":["NAT网关","VPN网关","对等连接"],"icon":""},
+            {"iid":13,"iname":"专线 ET","detail":"高性能，安全性极好的网络传输服务","item":[],"icon":""}
+        ]},
+        {"pid":2,"pname":"存储与CDM","child":[
+            {"iid":14,"iname":"对象存储 BOS","detail":"海量空间、安全、高可靠，支撑了国内最大网盘的云存储","item":["标准存储","低频存储","冷存储"],"icon":""},
+            {"iid":15,"iname":"云磁盘 CDS","detail":"灵活稳定、方便扩展的万量级IOPS块存储服务","item":[],"icon":""},
+            {"iid":16,"iname":"文件存储 CFS","detail":"高性能、低成本、可扩展的共享文件存储服务","item":[],"icon":""},
+            {"iid":17,"iname":"表格存储 BTS","detail":"全球扩展的海量表格存储服务","item":[],"icon":""},
+            {"iid":18,"iname":"内容分发网络 CDM","detail":"百度自建高质量CDN节点，让您的网站/服务像百度搜索一样快","item":[],"icon":""},
+            {"iid":19,"iname":"存储网关 BSG","detail":"混合云存储方案，无缝衔接本地和云端环境","item":[],"icon":""},
+            {"iid":20,"iname":"私有云存储ABC Storage","detail":"私有部署的高可用、可扩展、强安全的海量非结构化数据存储产品","item":[],"icon":""}
+        ]},
+        {"pid":3,"pname":"数据库","child":[
+            {"iid":21,"iname":"关系型数据库 RDS","detail":"支持MySQL、SQL Server、PostgreSQL，可靠易用、免维护","item":[],"icon":""},
+            {"iid":22,"iname":"简单缓存服务 SCS","detail":"提供高性能、高可用的分布式缓存服务，兼容Memcache/Redis协议","item":[],"icon":""},
+            {"iid":23,"iname":"分布式关系型数据库","detail":"海量数据分布式数据库存储服务","item":[],"icon":""},
+            {"iid":24,"iname":"文档数据库MongoDB","detail":"高可靠、高弹性、免运维的NoSQL文档数据库服务","item":[],"icon":""},
+            {"iid":25,"iname":"数据传输服务 DTS","detail":"简单可靠的数据库数据传输服务","item":[],"icon":""},
+            {"iid":26,"iname":"时序数据库 TSDB","detail":"存储时间序列数据的高性能数据库","item":[],"icon":""},
+            {"iid":27,"iname":"CockroachDB 云数据库","detail":"高扩展、高性能、高可用的分布式NewSQL数据库存储服务","item":[],"icon":""}
+        ]},
+        {"pid":4,"pname":"安全与管理","child":[
+          {"iid":28,"iname":"DDoS防护服务","detail":"攻击峰值按天付费，全面各种防御超大流量DDoS攻击","item":[],"icon":""},
+          {"iid":29,"iname":"应用防火墙 WAF","detail":"防SQL注入、防后门上传，专业防护各种Web漏洞攻击","item":[],"icon":""},
+          {"iid":30,"iname":"主机安全客户端","detail":"专业的云服务器安全客户端","item":[],"icon":""},
+          {"iid":31,"iname":"安全检测服务 SRD ","detail":"检测多种常见Web漏洞，提升业务安全性和稳定性","item":[],"icon":""},
+          {"iid":32,"iname":"流量审计 IDS","detail":"旁路入侵检测，快速感知安全威胁事件","item":[],"icon":""},
+          {"iid":33,"iname":"业务安全风控 AFD","detail":"为多种业务风险场景提供全方位业务安全风控服务","item":[],"icon":""},
+          {"iid":34,"iname":"安全服务","detail":"","item":["应急响应","渗透测试"],"icon":""},
+          {"iid":35,"iname":"云监控 BCM","detail":"实时监控报警服务","item":[],"icon":""},
+          {"iid":36,"iname":"SSL证书服务","detail":"一键申请免费DV SSL证书，零门槛、易管理","item":[],"icon":""}
+        ]},
+        {"pid":5,"pname":"大数据分析","child":[
+            {"iid":37,"iname":"百度MapReduce BMR ","detail":"全托管的Hadoop/Spark计算集群服务，助力海量数据分析挖掘","item":[],"icon":""},
+            {"iid":38,"iname":"百度数据科学平台JARVIS","detail":"可视化的数据分析挖掘Studio","item":[],"icon":"iconfont icon-new-tag"},
+            {"iid":39,"iname":"百度机器学习 BML","detail":"大规模机器学习平台，提供众多算法以及行业模板，助力高级分析","item":[],"icon":""},
+            {"iid":40,"iname":"百度深度学习","detail":"针对海量数据提供的云端托管的分布式深度学习平台","item":[],"icon":""},
+            {"iid":41,"iname":"百度数据仓库 Palo","detail":"PB级关系数据分析引擎，为客户提供稳定高效的多维分析服务","item":[],"icon":""},
+            {"iid":42,"iname":"百度Elasticsearch","detail":"全托管的Elasticsearch服务，助力日志等海量半结构化数据分析","item":[],"icon":""},
+            {"iid":43,"iname":"百度日志服务 BLS ","detail":"全托管日志收集投递服务，助力从海量日志数据中获取洞察力","item":[],"icon":""},
+            {"iid":44,"iname":"百度消息服务","detail":"全托管Kafka服务，高可扩展高通量的消息集成托管服务","item":[],"icon":""},
+            {"iid":45,"iname":"数据众包服务","detail":"针对各种类型数据，提供高效率、高质量、低成本的数据采集、标注服务","item":[],"icon":""},
+            {"iid":46,"iname":"智能推荐 BRS","detail":"为广大企业提供实时、精准的推荐服务，快速提升业务目标","item":[],"icon":""}
+          ]},
+        {"pid":6,"pname":"数字营销云","child":[
+            {"iid":47,"iname":"Cloud DMP","detail":"互联网化用户数据资产管理平台","item":[],"icon":""},
+            {"iid":48,"iname":"Cloud DSP","detail":"源码级DSP组件，帮助快速搭建需求方平台","item":[],"icon":""},
+            {"iid":49,"iname":"Cloud SSP","detail":"源码级SSP组件，帮助快速搭建供给方平台","item":[],"icon":""},
+            {"iid":50,"iname":"Cloud ADX","detail":"源码级ADX组件，帮助快速搭建广告交易平台","item":[],"icon":""},
+            {"iid":51,"iname":"广告点击率预估","detail":"集成百度丰富的广告经验和机器学习能力，精准预估点击率","item":[],"icon":""},
+            {"iid":52,"iname":"商品优选","detail":"依托百度多源数据画像，帮助计算网民和商品相关性","item":[],"icon":""},
+            {"iid":53,"iname":"反作弊","detail":"利用百度大数据分析、机器学习能力及知识库，为您的投放保驾护航","item":[],"icon":""},
+            {"iid":54,"iname":"广告审核","detail":"自动依法识别多种广告创意， 提高投放效率","item":[],"icon":""},
+            {"iid":55,"iname":"企业图谱 E-Profile","detail":"提供企业多维信息查询，依托顶尖AI技术，让企业风险无所遁形","item":[],"icon":""},
+            {"iid":56,"iname":"搜索Referer API","detail":"为站长提供获取网站流量关键词的应用程序接口","item":[],"icon":""},
+            {"iid":57,"iname":"搜索推广API ","detail":"提供百度搜索实况、管理API，批量、高效、不限配额调用","item":[],"icon":""},
+            {"iid":58,"iname":"百度信息流推广API ","detail":"提供百度信息流推广管理API，提升信息流广告的投放效率和ROI","item":[],"icon":""},
+            {"iid":59,"iname":"百度舆情API","detail":"快速捕捉实事舆情风向，助力订制化舆情监控平台搭建","item":[],"icon":""},
+            {"iid":60,"iname":"智能推荐 BRS","detail":"为广大企业提供实时、精准的推荐服务，快速提升业务目标","item":[],"icon":""},
+            {"iid":61,"iname":"聚点","detail":"通过对话方式提高线索转化率","item":[],"icon":""},
+            {"iid":62,"iname":"客群洞察","detail":"协助企业洞察目标客户的人群特征和线上、线下行为轨迹","item":[],"icon":""}
+          ]},
+        {"pid":7,"pname":"智能多媒体服务","child":[
+            {"iid":63,"iname":"音视频直播 LSS","detail":"一站式直播云服务，引领智能直播新时代","item":[],"icon":""},
+            {"iid":64,"iname":"音视频点播 VOD ","detail":"一站式点播云服务，让视频技术零门槛","item":[],"icon":""},
+            {"iid":65,"iname":"音视频转码 MCT","detail":"提供高质量的音视频转码计算服务","item":[],"icon":""},
+            {"iid":66,"iname":"文档服务 DOC ","detail":"提供百度文库一样的文档在线浏览服务","item":[],"icon":""},
+            {"iid":67,"iname":"视频内容分析 VCA","detail":"对视频内容多维度智能分析，输出视频的泛标签","item":[],"icon":""},
+            {"iid":68,"iname":"视频内容审核 VCR ","detail":"六大维度视频内容审核，大大降低视频平台风险","item":[],"icon":""},
+            {"iid":69,"iname":"视频封面选图 VCS","detail":"对视频内容理解，自动截取精彩画面作为视频的封面","item":[],"icon":""},
+            {"iid":70,"iname":"图像审核 ","detail":"","item":["色情识别","暴恐识别"],"icon":""}
+      ]},
+        {"pid":8,"pname":"物联网服务","child":[
+            {"iid":71,"iname":"物接入 IoT Hub ","detail":"快速建立设备与云端双向连接的、全托管的云服务","item":[],"icon":""},
+            {"iid":72,"iname":"物解析 IoT Parser ","detail":"简单快速完成各种设备数据协议解析，如Modbus、OPC等","item":[],"icon":""},
+            {"iid":73,"iname":"规则引擎 Rule Engine","detail":"灵活定义各种联动规则，与云端服务无缝连接","item":[],"icon":""},
+            {"iid":74,"iname":"时序数据库 TSDB","detail":"存储时间序列数据的高性能数据库","item":[],"icon":""},
+            {"iid":75,"iname":"物可视 IoT Visualization","detail":"轻松设计基于物联网海量数据流的可视化应用","item":[],"icon":""},
+            {"iid":76,"iname":"时序洞察 IoT EasyInsight","detail":"物联网时序数据的选取、处理、模型训练和部署","item":[],"icon":""},
+            {"iid":77,"iname":"智能边缘 BIE","detail":"提供边缘计算本地运行框架和云端管理套件","item":[],"icon":""},
+            {"iid":78,"iname":"函谷物联安全系统 HISK ","detail":"为物联网而生的一站式安全框架","item":[],"icon":""},
+            {"iid":79,"iname":"度家 DuHome ","detail":"一站式智能家居设备管理平台","item":[],"icon":""},
+            {"iid":80,"iname":"度行·智能车辆云 DuGo","detail":"提供车辆数据接入、存储、分析，地图服务，AI等服务的车联网平台","item":[],"icon":""},
+            {"iid":81,"iname":"度能 DUNENG ","detail":"综合能源服务共创平台","item":[],"icon":""},
+            {"iid":82,"iname":"位置服务 DuMap","detail":"精度高、覆盖广、稳定性强的位置服务","item":[],"icon":""}   
+      ]},
+        {"pid":9,"pname":"人工智能","child":[
+            {"iid":83,"iname":"图像技术","detail":"","item":["文字识别","人脸识别","图像识别","图像搜索","人体分析"],"icon":""},
+            {"iid":84,"iname":"内容审核","detail":"","item":["图像审核","文本审核","视频内容审核"],"icon":""},
+            {"iid":85,"iname":"自然语言","detail":"","item":["语言处理基础技术","理解与交互UNIT"],"icon":""},
+            {"iid":86,"iname":"语音技术","detail":"","item":["语音识别","语音合成","语音唤醒","实时语音识别电话版","音频文件转写电话版"],"icon":""},
+            {"iid":87,"iname":"视频技术 ","detail":"","item":["视频内容分析","视频封面选图"],"icon":""},
+            {"iid":88,"iname":"知识图谱 ","detail":"","item":["知识图谱Schema","知识理解"],"icon":""},
+            {"iid":89,"iname":"增强现实","detail":"","item":["百度AR开放平台"],"icon":""},
+            {"iid":90,"iname":"智能客服 ","detail":"","item":["云秘智能客服"],"icon":""},
+            {"iid":91,"iname":"AI开发平台Infinite","detail":"一站式的AI模型训练、评估及服务部署平台","item":[],"icon":""},
+            {"iid":92,"iname":"Apollo","detail":"通过云端开放智能驾驶数据和计算能力的产品","item":["仿真开放平台","标定服务平台","Apollo训练平台"],"icon":""},
+            {"iid":93,"iname":"对话式搜索 BCS ","detail":"搭建基于关键词的全文搜索服务，提供对话式的人机交互接口","item":[],"icon":""},
+            {"iid":94,"iname":"百度机器学习 BML","detail":"大规模机器学习平台，提供众多算法以及行业模板，助力高级分析","item":[],"icon":""},
+            {"iid":95,"iname":"GPU服务器","detail":"配备独享GPU的高性能云计算服务","item":[],"icon":""},
+            {"iid":94,"iname":"FPGA云服务器","detail":"配备现场可编程门阵列（FPGA）的高性能云计算服务","item":[],"icon":""},
+            {"iid":96,"iname":"容器引擎 CCE ","detail":"提供基于K8s+Docker的PaddlePaddle Cloud云端分布式训练解决方案","item":[],"icon":""},
+            {"iid":97,"iname":"函数计算 CFC ","detail":"与DuerOS技能开放平台深度整合，提供技能+函数的智能终端开发者解决方案","item":[],"icon":""},
+            {"iid":98,"iname":"数据众包服务","detail":"针对各种类型数据，提供高效率、高质量、低成本的数据采集、标注服务","item":[],"icon":""},
+            {"iid":99,"iname":"ABC 一体机","detail":"","item":["AI 训练一体机"],"icon":""}
+        ]},
+        {"pid":10,"pname":"应用服务","child":[
+            {"iid":100,"iname":"简单消息服务 SMS","detail":"提供简单、可靠的短消息验证码、通知服务","item":[],"icon":""},
+            {"iid":101,"iname":"应用性能管理服务 APM ","detail":"对Web、Mobile APP的应用性能监测、分析和优化服务","item":[],"icon":""},
+            {"iid":102,"iname":"云呼叫中心 CCC","detail":"百度云通信能力，即开即用的语音通信服务","item":[],"icon":"iconfont icon-new-tag"},
+            {"iid":103,"iname":"问卷调研服务","detail":"基于海量样本用户的问卷调研服务","item":[],"icon":""},
+            {"iid":104,"iname":"移动App测试服务  ","detail":"自动化测试、人工测试、用户评测等多维度测试服务","item":[],"icon":""},
+            {"iid":105,"iname":"百度AR开放平台","detail":"提供AR开发框架(SDK)、内容创作、管理、分发一站式解决方案","item":[],"icon":""}
+        ]},
+        {"pid":11,"pname":"网站服务","child":[
+            {"iid":106,"iname":"云虚拟主机 BCH","detail":"高可靠、易推广的容器云虚机，企业建站首选","item":["智营销建站主机","标准云虚机","商务安全主机"],"icon":""},
+            {"iid":107,"iname":"域名服务","detail":"提供百余种后缀域名注册及免费智能解析服务","item":[],"icon":""},
+            {"iid":108,"iname":"智能云解析DNS","detail":"自研DNS设备，单机千万级解析性能，权威DNS解析专家","item":[],"icon":""},
+            {"iid":109,"iname":"移动域名解析HTTPDNS","detail":"安全、高效、精准的移动域名解析服务","item":[],"icon":""},
+            {"iid":110,"iname":"智能流量管理ITM ","detail":"全局负载均衡产品，智能管理接入流量，提升服务可用性和性能","item":[],"icon":""}
+        ]}
+    ]
+}
